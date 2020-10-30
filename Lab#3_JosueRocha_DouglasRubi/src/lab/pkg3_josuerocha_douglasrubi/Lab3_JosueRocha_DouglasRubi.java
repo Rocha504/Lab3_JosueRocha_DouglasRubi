@@ -25,14 +25,14 @@ public class Lab3_JosueRocha_DouglasRubi {
             System.out.println("2.•Login Personas");
             System.out.println("3.•Productos");
             System.out.println("4.•Salir");
+            System.out.print("Ingrese la opcion deseada: ");
+            OpcionPrincipal = Leer.nextInt();
             int Opcion = 0;
             switch (OpcionPrincipal) {
                 case 1:
-                    while (Opcion != 4) {
                         System.out.println("1.•Tiendas");
                         System.out.println("2.•Quiosco");
                         System.out.println("3.•Restaurantes");
-                        System.out.println("4.•Salir");
                         System.out.print("Ingrese la opcion deseada: ");
                         Opcion = Leer.nextInt();
                         switch (Opcion) {
@@ -46,9 +46,7 @@ public class Lab3_JosueRocha_DouglasRubi {
                                 
                                 break;
                         }
-                    }
                 case 2:
-                    while (Opcion != 3) {
                         System.out.println("1.•Empleados");
                         System.out.println("2.•Clientes");
                         System.out.println("3.•Salir");
@@ -62,13 +60,10 @@ public class Lab3_JosueRocha_DouglasRubi {
                                 System.out.println("Usted es Cliente");
                                 break;
                         }
-                    }
                 case 3:
-                    while (Opcion != 4) {
                         System.out.println("1.•Ropa");
                         System.out.println("2.•Juguetes");
                         System.out.println("3.•Comida");
-                        System.out.println("4.•Salir");
                         System.out.print("Ingrese la opcion deseada: ");
                         Opcion = Leer.nextInt();
                         switch (Opcion) {
@@ -82,7 +77,6 @@ public class Lab3_JosueRocha_DouglasRubi {
                                 
                                 break;
                         }
-                    }
                 case 4:
                     System.out.println("Saliendo.......");
             }
