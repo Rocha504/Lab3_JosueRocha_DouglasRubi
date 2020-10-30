@@ -19,32 +19,13 @@ public class Lab3_JosueRocha_DouglasRubi {
         int OpcionPrincipal = 0;
         while (OpcionPrincipal != 4) {
             System.out.println("   BIENVENIDO   ");
-            System.out.println("1.•Locales");
-            System.out.println("2.•Login Personas");
-            System.out.println("3.•Productos");
-            System.out.println("4.•Salir");
+            System.out.println("1.•Login Personas");
+            System.out.println("2.•Salir");
             System.out.print("Ingrese la opcion deseada: ");
             OpcionPrincipal = Leer.nextInt();
             int Opcion = 0;
             switch (OpcionPrincipal) {
                 case 1:
-                        System.out.println("1.•Tiendas");
-                        System.out.println("2.•Quiosco");
-                        System.out.println("3.•Restaurantes");
-                        System.out.print("Ingrese la opcion deseada: ");
-                        Opcion = Leer.nextInt();
-                        switch (Opcion) {
-                            case 1: 
-                                
-                                break;
-                            case 2:
-                                
-                                break;
-                            case 3:
-                                
-                                break;
-                        }
-                case 2:
                         System.out.println("1.•Empleados");
                         System.out.println("2.•Clientes");
                         System.out.println("3.•Salir");
@@ -112,24 +93,7 @@ public class Lab3_JosueRocha_DouglasRubi {
                                 }
                                 break;
                         }
-                case 3:
-                        System.out.println("1.•Ropa");
-                        System.out.println("2.•Juguetes");
-                        System.out.println("3.•Comida");
-                        System.out.print("Ingrese la opcion deseada: ");
-                        Opcion = Leer.nextInt();
-                        switch (Opcion) {
-                            case 1:
-                                
-                                break;
-                            case 2:
-                                
-                                break;
-                            case 3:
-                                
-                                break;
-                        }
-                case 4:
+                case 2:
                     System.out.println("Saliendo.......");
             }
         }
