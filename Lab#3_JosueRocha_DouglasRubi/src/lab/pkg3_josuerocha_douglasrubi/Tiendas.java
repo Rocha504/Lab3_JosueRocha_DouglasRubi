@@ -1,15 +1,21 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
+
 package lab.pkg3_josuerocha_douglasrubi;
+
+import java.util.ArrayList;
 
 /**
  *
  * @author josue
  */
 public class Tiendas extends Locales{
+
+    public Tiendas() {
+    }
+
+    public Tiendas(String nombre, ArrayList<Empleados> empleados, ArrayList<Productos> productos, String gerente) {
+        super(nombre, empleados, productos, gerente);
+    }
+    
     
     
     
