@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class Locales {
     
     private String nombre;
-    private ArrayList<Empleados> empleados;
-    private ArrayList<Productos> productos;
+    private ArrayList empleados;
+    private ArrayList productos;
     private String gerente;
 
     public Locales() {
