@@ -22,6 +22,14 @@ public class Quiosco extends Locales {
         super(nombre, empleados, productos, gerente);
         this.nombre1 = nombre;
     }
+
+    public String getNombre1() {
+        return nombre1;
+    }
+
+    public void setNombre1(String nombre1) {
+        this.nombre1 = nombre1;
+    }
     
     
 
