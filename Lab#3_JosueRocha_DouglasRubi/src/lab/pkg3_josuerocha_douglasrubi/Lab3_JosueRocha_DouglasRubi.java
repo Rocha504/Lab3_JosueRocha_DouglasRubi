@@ -17,10 +17,11 @@ public class Lab3_JosueRocha_DouglasRubi {
         Scanner Leer = new Scanner(System.in);
         boolean LogIn = false;
         int OpcionPrincipal = 0;
-        while (OpcionPrincipal != 4) {
+        while (OpcionPrincipal != 3) {
             System.out.println("   BIENVENIDO   ");
-            System.out.println("1.•Login Personas");
-            System.out.println("2.•Salir");
+            System.out.println("1.•Log in[Ingresar un usuario]");
+            System.out.println("2.•Sign in[Crear un usuario]");
+            System.out.println("3.•Salir");
             System.out.print("Ingrese la opcion deseada: ");
             OpcionPrincipal = Leer.nextInt();
             int Opcion = 0;
