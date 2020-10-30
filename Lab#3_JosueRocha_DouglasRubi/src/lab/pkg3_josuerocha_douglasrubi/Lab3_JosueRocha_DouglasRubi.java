@@ -15,6 +15,7 @@ public class Lab3_JosueRocha_DouglasRubi {
      */
     public static void main(String[] args) {
         Scanner Leer = new Scanner(System.in);
+        boolean LogIn = false;
         ArrayList Empleados = new ArrayList();
         ArrayList Productos = new ArrayList();
         ArrayList Gerente = new ArrayList();
@@ -54,10 +55,64 @@ public class Lab3_JosueRocha_DouglasRubi {
                         Opcion = Leer.nextInt();
                         switch (Opcion) {
                             case 1:
-                                System.out.println("Usted es el empleado");
+                                if (Opcion==1){
+                                    LogIn = true;
+                                }else{
+                                    while(Opcion !=1){
+                                        System.out.println("[Log in]: Ingresa en tu cuenta");
+                                        System.out.println("Ingresar nuevamente la opcion que desea ingresar: ");
+                                        Opcion = Leer.nextInt();
+                                    }
+                                    LogIn = true;
+                                }
+                                while (LogIn){
+                                    LogIn = false;
+                                    System.out.println("Ingrese Usuario: ");
+                                    String User = Leer.next();
+                                    while(!User.equals("ClaudiaCortez")){
+                                        System.out.println("El usuario que ingreso es incorreto");
+                                        System.out.println("Vuelva ingresar el usuario: ");
+                                        User = Leer.next();
+                                    }
+                                    System.out.println("Ingrese la contraseña: ");
+                                    String Contraseña = Leer.next();
+                                    while(!Contraseña.equals("KimetsuNoYaibai")){
+                                        System.out.println("Ingreso la contraseña incorrecta");
+                                        System.out.println("Vuelva ingresar la contraseña: ");
+                                        Contraseña = Leer.next();
+                                    }
+                                    System.out.println("•Has ingresado excitosamente a tu usuario•");
+                                }
                                 break;
                             case 2:
-                                System.out.println("Usted es Cliente");
+                                if (Opcion==2){
+                                    LogIn = true;
+                                }else{
+                                    while(Opcion !=2){
+                                        System.out.println("[Sign in]: Ingresa en tu cuenta");
+                                        System.out.println("Ingresar nuevamente la opcion que desea ingresar: ");
+                                        Opcion = Leer.nextInt();
+                                    }
+                                    LogIn = true;
+                                }
+                                while (LogIn){
+                                    LogIn = false;
+                                    System.out.println("Ingrese Usuario: ");
+                                    String User = Leer.next();
+                                    while(!User.equals("DouglasRivera")){
+                                        System.out.println("El usuario que ingreso es incorreto");
+                                        System.out.println("Vuelva ingresar el usuario: ");
+                                        User = Leer.next();
+                                    }
+                                    System.out.println("Ingrese la contraseña: ");
+                                    String Contraseña = Leer.next();
+                                    while(!Contraseña.equals("UnitedStatesOfSmach")){
+                                        System.out.println("Ingreso la contraseña incorrecta");
+                                        System.out.println("Vuelva ingresar la contraseña: ");
+                                        Contraseña = Leer.next();
+                                    }
+                                    System.out.println("•Has ingresado excitosamente a tu usuario•");
+                                }
                                 break;
                         }
                 case 3:
