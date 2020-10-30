@@ -16,9 +16,6 @@ public class Lab3_JosueRocha_DouglasRubi {
     public static void main(String[] args) {
         Scanner Leer = new Scanner(System.in);
         boolean LogIn = false;
-        ArrayList Empleados = new ArrayList();
-        ArrayList Productos = new ArrayList();
-        ArrayList Gerente = new ArrayList();
         int OpcionPrincipal = 0;
         while (OpcionPrincipal != 4) {
             System.out.println("   BIENVENIDO   ");
