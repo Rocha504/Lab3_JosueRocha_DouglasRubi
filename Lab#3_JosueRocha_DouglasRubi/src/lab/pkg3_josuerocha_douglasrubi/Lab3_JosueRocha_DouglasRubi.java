@@ -22,7 +22,7 @@ public class Lab3_JosueRocha_DouglasRubi {
         int op = 0;
         while (op != 3) {
             
-            System.out.println("Clau el username del SUDO es: Rocha504 y la contra es: 12345");
+            System.out.println("Claudia el username del SUDO es: Rocha504 y la contra es: 12345");
             System.out.println("   BIENVENIDO   ");
             System.out.println("1.•Log in[Ingresar un usuario]");
             System.out.println("2.•Sign in[Crear un usuario]");
@@ -40,8 +40,13 @@ public class Lab3_JosueRocha_DouglasRubi {
                     if (username.equals(aux) && password.equals(aux2)) {
                         System.out.println("Bienvenido Cliente");
                         System.out.println();
-                        System.out.println("Tiendas: ");
+                        System.out.println("Tiendas:");
                         imprimir(locales);
+                        System.out.println("Ingrese la pocision de la tienda que de la que desea comprar");
+                        int tienda=leer.nextInt();
+                        System.out.println("Ingrese la posicion del producto que desea comprar(Recuerde que las posiciones empiezan desde 0)");
+                        int producto;
+                        
                         
                     }
                 }
