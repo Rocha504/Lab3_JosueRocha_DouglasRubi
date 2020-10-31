@@ -1,6 +1,7 @@
  
 package lab.pkg3_josuerocha_douglasrubi;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 /**
@@ -12,6 +13,7 @@ public class Josue {
     
     
     public void crear(){
+        
         System.out.println("Ingrese su ID");
         String ID=leer.next();
         System.out.println("Ingrese su username");
@@ -22,6 +24,12 @@ public class Josue {
         String correo=leer.next();
         System.out.println("Ingrese su nombre");
         String nombre=leer.next();
+        System.out.println("Cuanto dinero trajo?");
+        double dinero=leer.nextDouble();
+        ArrayList <Productos> carrito=new ArrayList();
+        
+        
+        System.out.println("BIENVENIDO ADMIN QUE DESEA HACER HOY?");
         
     }
     

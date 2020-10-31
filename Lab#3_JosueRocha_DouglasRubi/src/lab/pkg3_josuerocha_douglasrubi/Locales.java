@@ -55,6 +55,13 @@ public class Locales {
     public void setGerente(String gerente) {
         this.gerente = gerente;
     }
+
+    @Override
+    public String toString() {
+        return "Locales[" + "Nombre=" + nombre + "\n Productos=" + productos + "\n gerente=" + gerente + "]";
+    }
+    
+    
     
     
 
