@@ -14,7 +14,7 @@ public class Lab3_JosueRocha_DouglasRubi {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        
+        ArrayList <Empleados> Empleados = new ArrayList();
         ArrayList locales=new ArrayList();
         ArrayList <Clientes> clientes=new ArrayList();
         Scanner Leer = new Scanner(System.in);
